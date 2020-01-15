@@ -41,7 +41,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,10 +79,10 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Docker.Docker Image">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
-      <module name="seMethods" />
+      <module name="sem" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.napier.sem.*" />
@@ -107,8 +107,13 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Docker.Docker Image" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -274,5 +279,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="569" y="205" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1578461387530" />
+    <state x="434" y="244" key="git4idea.rebase.GitRebaseDialog" timestamp="1579064417866">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="434" y="244" key="git4idea.rebase.GitRebaseDialog/0.0.1366.728@0.0.1366.728" timestamp="1579064417866" />
+    <state x="415" y="222" key="git4idea.ui.GitTagDialog" timestamp="1579064445718">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="415" y="222" key="git4idea.ui.GitTagDialog/0.0.1366.728@0.0.1366.728" timestamp="1579064445718" />
   </component>
 </project>
