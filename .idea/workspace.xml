@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d820a68-22d9-4c80-9caf-341d52cf75ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/db/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/napier/sem/App.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,23 +72,26 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1W6DrfjWYdobWl3UbuhrPJsqBVk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="Docker" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
-  <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.com.napier.sem in seMethods">
+    <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
       <extension name="coverage">
@@ -89,6 +100,34 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="seMethods" />
+      <option name="PACKAGE_NAME" value="com.napier.sem" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.napier.sem in seMethods" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="seMethods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.napier.sem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.napier.sem" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,13 +144,28 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="db/Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="db/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="Docker.Docker Image" />
+      <item itemvalue="Docker.db/Dockerfile" />
+      <item itemvalue="JUnit.com.napier.sem in seMethods" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.App" />
@@ -133,11 +187,6 @@
                 <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
                 <item name="Containers" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
-                <item name="Images" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -158,6 +207,7 @@
       <workItem from="1578461352062" duration="5018000" />
       <workItem from="1578471075060" duration="1529000" />
       <workItem from="1579054069011" duration="4577000" />
+      <workItem from="1579795317390" duration="665000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, adding initial files.">
       <created>1578461494495</created>
@@ -226,13 +276,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit, adding initial files." />
     <MESSAGE value="Hello World Sanity Check" />
     <MESSAGE value="Deploying Application to Docker in IntelliJ" />
@@ -246,6 +299,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="409" y="33" key="#App/0.0.1366.728@0.0.1366.728" timestamp="1579057644435" />
+    <state x="280" y="32" key="#AppTest" timestamp="1579796013331">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="280" y="32" key="#AppTest/0.0.1366.728@0.0.1366.728" timestamp="1579796013331" />
     <state x="321" y="0" key="#Docker" timestamp="1579063231938">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -263,43 +320,43 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="26" key="#Pull_Image/0.0.1366.728@0.0.1366.728" timestamp="1579063047153" />
-    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579063245671">
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579795966453">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1579063245671" />
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1579795966453" />
     <state x="541" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578461562457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="541" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1578461562457" />
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1579063615493">
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1579796107512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579063615493" />
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579796107512" />
     <state x="393" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578472055697" />
-    <state width="661" height="179" key="GridCell.Tab.0.bottom" timestamp="1579063622855">
+    <state width="974" height="179" key="GridCell.Tab.0.bottom" timestamp="1579796050918">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579063622855" />
+    <state width="974" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579796050918" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578467646291" />
-    <state width="661" height="179" key="GridCell.Tab.0.center" timestamp="1579063622855">
+    <state width="974" height="179" key="GridCell.Tab.0.center" timestamp="1579796050917">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579063622855" />
+    <state width="974" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579796050917" />
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578467646228" />
-    <state width="661" height="179" key="GridCell.Tab.0.left" timestamp="1579063622855">
+    <state width="974" height="179" key="GridCell.Tab.0.left" timestamp="1579796050917">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579063622855" />
+    <state width="974" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579796050917" />
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578467646228" />
-    <state width="661" height="179" key="GridCell.Tab.0.right" timestamp="1579063622855">
+    <state width="974" height="179" key="GridCell.Tab.0.right" timestamp="1579796050917">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579063622855" />
+    <state width="974" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579796050917" />
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578467646228" />
-    <state x="246" y="0" key="SettingsEditor" timestamp="1579063150683">
+    <state x="246" y="0" key="SettingsEditor" timestamp="1579795755786">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="246" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579063150683" />
+    <state x="246" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579795755786" />
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578462089884" />
     <state x="321" y="129" key="Vcs.Push.Dialog.v2" timestamp="1579063637502">
       <screen x="0" y="0" width="1366" height="728" />
@@ -314,5 +371,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="569" y="205" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1578461387530" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/seMethods$com_napier_sem_in_seMethods.ic" NAME="com.napier.sem in seMethods Coverage Results" MODIFIED="1579796050854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.napier.sem.*</FILTER>
+    </SUITE>
   </component>
 </project>
