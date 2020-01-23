@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d820a68-22d9-4c80-9caf-341d52cf75ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/AppIntegrationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +229,7 @@
       <workItem from="1578461352062" duration="5018000" />
       <workItem from="1578471075060" duration="1529000" />
       <workItem from="1579054069011" duration="4577000" />
-      <workItem from="1579795317390" duration="1240000" />
+      <workItem from="1579795317390" duration="1713000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, adding initial files.">
       <created>1578461494495</created>
@@ -297,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579796335100</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fix bugs">
+      <created>1579796651761</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1579796651761</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +337,8 @@
     <MESSAGE value="Linking Containers" />
     <MESSAGE value="Unit Testing" />
     <MESSAGE value="Adding Stages to Travis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Stages to Travis" />
+    <MESSAGE value="Fix bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix bugs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="409" y="33" key="#App" timestamp="1579057644435">
@@ -362,10 +374,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="541" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1578461562457" />
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1579796332095">
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1579797104986">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579796332095" />
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579797104986" />
     <state x="393" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578472055697" />
     <state width="974" height="179" key="GridCell.Tab.0.bottom" timestamp="1579796195159">
       <screen x="0" y="0" width="1366" height="728" />
@@ -392,10 +404,10 @@
     </state>
     <state x="246" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579795755786" />
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578462089884" />
-    <state x="321" y="129" key="Vcs.Push.Dialog.v2" timestamp="1579796339020">
+    <state x="321" y="129" key="Vcs.Push.Dialog.v2" timestamp="1579796656265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="129" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579796339020" />
+    <state x="321" y="129" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579796656265" />
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578472071228" />
     <state x="406" y="168" key="git4idea.merge.GitMergeDialog" timestamp="1579063507543">
       <screen x="0" y="0" width="1366" height="728" />
