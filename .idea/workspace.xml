@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d820a68-22d9-4c80-9caf-341d52cf75ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/AppIntegrationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +246,7 @@
       <workItem from="1579152943044" duration="126000" />
       <workItem from="1579155238035" duration="690000" />
       <workItem from="1579768471484" duration="1988000" />
-      <workItem from="1579779039130" duration="6678000" />
+      <workItem from="1579779039130" duration="7068000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, adding initial files.">
       <created>1578461494495</created>
@@ -344,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579785025560</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Adding Mock Deploy Stage">
+      <created>1579785792710</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1579785792710</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,7 +377,8 @@
     <MESSAGE value="Add Database Support&#10;Test MySQL Connection&#10;Update Travis File&#10;Add Docker Compose File" />
     <MESSAGE value="Create unit testing" />
     <MESSAGE value="Integration tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integration tests" />
+    <MESSAGE value="Adding Mock Deploy Stage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Mock Deploy Stage" />
   </component>
   <component name="WindowStateProjectService">
     <state x="409" y="33" key="#App" timestamp="1579057644435">
@@ -460,30 +463,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="402" y="86" width="561" height="571" key="#docker-compose.yml:_Compose_Deployment/0.0.1366.728@0.0.1366.728" timestamp="1579114221932" />
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1579785020761">
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1579785789154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579785020761" />
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579785789154" />
     <state x="393" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578472055697" />
-    <state width="1065" height="179" key="GridCell.Tab.0.bottom" timestamp="1579784932697">
+    <state width="1065" height="179" key="GridCell.Tab.0.bottom" timestamp="1579786058999">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1065" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579784932696" />
+    <state width="1065" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579786058999" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578467646291" />
-    <state width="1065" height="179" key="GridCell.Tab.0.center" timestamp="1579784932696">
+    <state width="1065" height="179" key="GridCell.Tab.0.center" timestamp="1579786058999">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1065" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579784932696" />
+    <state width="1065" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579786058999" />
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578467646228" />
-    <state width="1065" height="179" key="GridCell.Tab.0.left" timestamp="1579784932696">
+    <state width="1065" height="179" key="GridCell.Tab.0.left" timestamp="1579786058999">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1065" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579784932696" />
+    <state width="1065" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579786058999" />
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578467646228" />
-    <state width="1065" height="179" key="GridCell.Tab.0.right" timestamp="1579784932696">
+    <state width="1065" height="179" key="GridCell.Tab.0.right" timestamp="1579786058999">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1065" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579784932696" />
+    <state width="1065" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579786058999" />
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578467646228" />
     <state width="1093" height="223" key="GridCell.Tab.1.bottom" timestamp="1579782141139">
       <screen x="0" y="0" width="1366" height="728" />
@@ -510,10 +513,10 @@
     </state>
     <state x="246" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579785277482" />
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578462089884" />
-    <state x="321" y="129" key="Vcs.Push.Dialog.v2" timestamp="1579785039366">
+    <state x="321" y="129" key="Vcs.Push.Dialog.v2" timestamp="1579785795253">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="129" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579785039366" />
+    <state x="321" y="129" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579785795253" />
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578472071228" />
     <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579155888462">
       <screen x="0" y="0" width="1366" height="728" />
