@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d820a68-22d9-4c80-9caf-341d52cf75ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/napier/sem/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +85,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
-  <component name="RunManager" selected="JUnit.com.napier.sem in seMethods">
+  <component name="RunManager" selected="Docker.Docker Image">
     <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -132,14 +127,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" server-name="Docker">
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
       <deployment type="docker-image">
         <settings>
           <option name="command" value="" />
-          <option name="containerName" value="mongo-dbserver" />
+          <option name="containerName" value="" />
           <option name="entrypoint" value="" />
-          <option name="imageTag" value="sha256:a0e2e64ac939a4f0c9b7aad9fee09f87f7d7f923f50ddcd9ed20f3f229b998f8" />
-          <option name="commandLineOptions" value="--network se-methods" />
+          <option name="imageTag" value="kevinchalmers/employees:latest" />
+          <option name="commandLineOptions" value="-e MYSQL_ROOT_PASSWORD=example" />
         </settings>
       </deployment>
       <method v="2" />
@@ -166,6 +161,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.App" />
@@ -176,6 +172,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.34619394" />
           <treeState>
             <expand>
               <path>
@@ -186,6 +183,11 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
                 <item name="Containers" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Images" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -207,7 +209,7 @@
       <workItem from="1578461352062" duration="5018000" />
       <workItem from="1578471075060" duration="1529000" />
       <workItem from="1579054069011" duration="4577000" />
-      <workItem from="1579795317390" duration="665000" />
+      <workItem from="1579795317390" duration="929000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, adding initial files.">
       <created>1578461494495</created>
@@ -265,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579063616989</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Unit Testing">
+      <created>1579796109486</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1579796109486</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +301,8 @@
     <MESSAGE value="Adding a Travis Build File" />
     <MESSAGE value="Adding MongoDB Support to Application." />
     <MESSAGE value="Linking Containers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linking Containers" />
+    <MESSAGE value="Unit Testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unit Testing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="409" y="33" key="#App" timestamp="1579057644435">
@@ -308,18 +318,18 @@
     </state>
     <state x="321" y="0" key="#Docker/0.0.1366.728@0.0.1366.728" timestamp="1579063231938" />
     <state x="361" y="0" key="#Docker/0.0.1536.824@0.0.1536.824" timestamp="1578465455004" />
-    <state x="409" y="0" key="#Docker_Image" timestamp="1579063391804">
+    <state x="409" y="0" key="#Docker_Image" timestamp="1579796255163">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="409" y="0" key="#Docker_Image/0.0.1366.728@0.0.1366.728" timestamp="1579063391804" />
+    <state x="409" y="0" key="#Docker_Image/0.0.1366.728@0.0.1366.728" timestamp="1579796255163" />
     <state x="275" y="26" key="#Project_Structure" timestamp="1579062229914">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="26" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1579062229914" />
-    <state x="275" y="26" key="#Pull_Image" timestamp="1579063047153">
+    <state x="275" y="26" key="#Pull_Image" timestamp="1579796214674">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="26" key="#Pull_Image/0.0.1366.728@0.0.1366.728" timestamp="1579063047153" />
+    <state x="275" y="26" key="#Pull_Image/0.0.1366.728@0.0.1366.728" timestamp="1579796214674" />
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579795966453">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -333,35 +343,35 @@
     </state>
     <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579796107512" />
     <state x="393" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578472055697" />
-    <state width="974" height="179" key="GridCell.Tab.0.bottom" timestamp="1579796050918">
+    <state width="974" height="179" key="GridCell.Tab.0.bottom" timestamp="1579796195159">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="974" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579796050918" />
+    <state width="974" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579796195159" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578467646291" />
-    <state width="974" height="179" key="GridCell.Tab.0.center" timestamp="1579796050917">
+    <state width="974" height="179" key="GridCell.Tab.0.center" timestamp="1579796195159">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="974" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579796050917" />
+    <state width="974" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579796195159" />
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578467646228" />
-    <state width="974" height="179" key="GridCell.Tab.0.left" timestamp="1579796050917">
+    <state width="974" height="179" key="GridCell.Tab.0.left" timestamp="1579796195159">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="974" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579796050917" />
+    <state width="974" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579796195159" />
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578467646228" />
-    <state width="974" height="179" key="GridCell.Tab.0.right" timestamp="1579796050917">
+    <state width="974" height="179" key="GridCell.Tab.0.right" timestamp="1579796195159">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="974" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579796050917" />
+    <state width="974" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579796195159" />
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578467646228" />
     <state x="246" y="0" key="SettingsEditor" timestamp="1579795755786">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="246" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579795755786" />
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578462089884" />
-    <state x="321" y="129" key="Vcs.Push.Dialog.v2" timestamp="1579063637502">
+    <state x="321" y="129" key="Vcs.Push.Dialog.v2" timestamp="1579796115240">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="129" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579063637502" />
+    <state x="321" y="129" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579796115240" />
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578472071228" />
     <state x="406" y="168" key="git4idea.merge.GitMergeDialog" timestamp="1579063507543">
       <screen x="0" y="0" width="1366" height="728" />
